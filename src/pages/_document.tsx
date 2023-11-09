@@ -24,7 +24,9 @@ export default class CustomDocument extends Document {
   render(): JSX.Element {
     return (
       <Html prefix="og: https://ogp.me/ns#">
-        <Head />
+        <Head>
+          <link rel="icon" href="/favicon.ico" />
+        </Head>
         <body>
           <Script
             src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID"

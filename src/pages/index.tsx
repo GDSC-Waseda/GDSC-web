@@ -32,6 +32,7 @@ const Home: NextPage = () => {
     <>
       <CommonMeta pageTitle="Home" />
       <div className="home-page">
+        <link rel="icon" href="/favicon.ico" />
         <div className="home-page__top">
           <div className="home-page__top__container">
             <ImageCard props={topCard}>

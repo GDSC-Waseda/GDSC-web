@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import { useRouter } from "next/router";
+import Head from "next/head";
 
 import { Footer } from "components/Footer";
 import { NavigationBar } from "components/NavigationBar";
@@ -20,6 +21,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         googleTagManagerId={googleTagManagerId as GoogleTagManagerId}
   /> */}
       <NavigationBar />
+
       <Component {...pageProps} />
       <Footer />
     </>
