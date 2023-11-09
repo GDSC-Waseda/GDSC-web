@@ -9,6 +9,7 @@ import logo from "assets/svg/logo.svg";
 export const NavigationBar = (): JSX.Element => {
   return (
     <div className="header">
+      <link rel="icon" href="/favicon.ico" />
       <Navbar expand="sm" className="header__container">
         <Container fluid>
           <Navbar.Brand>
@@ -39,7 +40,7 @@ export const NavigationBar = (): JSX.Element => {
                 <Link href="/events">Events</Link>
               </Nav.Item>
               <Nav.Item className="navItem">
-                <a href="https://forms.gle/uewfWU2QZjpHmSqc9" target="_blank">
+                <a href="https://linktr.ee/gdsc_waseda" target="_blank">
                   <Button variant="outline-dark" className="butto">
                     <small>Join Us</small>
                   </Button>

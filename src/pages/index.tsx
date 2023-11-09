@@ -37,7 +37,7 @@ const Home: NextPage = () => {
             <ImageCard props={topCard}>
               <div className="home-page__top__title">Change the World</div>
               <div className="home-page__top__button">
-                <a href="https://forms.gle/uewfWU2QZjpHmSqc9" target="_blank">
+                <a href="https://linktr.ee/gdsc_waseda" target="_blank">
                   <Button variant="outline-dark" className="button">
                     <small>Join Us</small>
                   </Button>
